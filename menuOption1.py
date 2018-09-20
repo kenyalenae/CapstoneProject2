@@ -4,7 +4,7 @@
 import sqlite3
 
 
-# function to create a database with a pre-defined table
+# create a database with a pre-defined table
 def create_database():
 
     sqlite_file = 'test1_db.sqlite'    # name of the sqlite database file

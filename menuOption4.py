@@ -4,7 +4,7 @@
 import sqlite3
 
 
-# function to delete a row of data depending on user input
+# delete a row of data depending on user input
 def delete_row():
 
     sqlite_file = 'test1_db.sqlite'
@@ -15,7 +15,6 @@ def delete_row():
     # ask user for id of employee they would like to delete
     x = input('Enter the ID of the employee you would like to delete: ')
 
-    # delete row depending on user input
     c.execute('DELETE FROM EMPLOYEE_TEST WHERE EMP_ID =?', (x,))
 
     conn.commit()

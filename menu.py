@@ -9,7 +9,7 @@ from menuOption5 import display_all
 from menuOption6 import display_row
 
 
-# function to run the program until the user selects no
+# run the program until the user selects no to end program
 def main():
     run_program = True
     while run_program:
@@ -22,7 +22,7 @@ def main():
             run_program = False
 
 
-# function to display the menu
+# display the menu
 def print_menu():
     print(30 * '-', 'DATABASE MENU PROGRAM', 30 * '-')
     print('1: Create a database and a table')

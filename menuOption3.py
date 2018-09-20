@@ -25,7 +25,7 @@ def update_row():
     print('6: SALARY')
     y = input('Which column would you like to update?: ')
 
-    # update the column with users input depending on which option the user chooses
+    # update the column with users input
     if y == '1':
         new_name = input('Enter employees new name: ')
         c.execute('UPDATE EMPLOYEE_TEST SET EMP_NAME =? WHERE ID =?', (new_name, x,))

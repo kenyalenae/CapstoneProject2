@@ -4,7 +4,7 @@
 import sqlite3
 
 
-# function to display all rows in table
+# display all rows in table
 def display_all():
 
     sqlite_file = 'test1_db.sqlite'

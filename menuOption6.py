@@ -4,7 +4,7 @@
 import sqlite3
 
 
-# function to display one row
+# display one row only
 def display_row():
 
     sqlite_file = 'test1_db.sqlite'
